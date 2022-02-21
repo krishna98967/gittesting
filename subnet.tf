@@ -11,7 +11,7 @@ resource "aws_subnet" "public_subnet1" {
 
 resource "aws_subnet" "subnet2-public" {
   vpc_id            = aws_vpc.Test-vpc.id
-  cidr_block        = 10.60.3.0/24
+  cidr_block        = 10.60.0.1/24
   availability_zone = "us-east-1b"
 
   tags = {
