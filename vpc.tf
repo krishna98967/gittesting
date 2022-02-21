@@ -7,6 +7,7 @@ resource "aws_vpc" "VPC" {
     Name      = "spiderman"
     owner     = "krishnareddy"
     operation = "production"
+    costcenter= 8090
   }
 }
 
