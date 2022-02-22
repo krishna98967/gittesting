@@ -4,10 +4,10 @@ resource "aws_vpc" "VPC" {
   enable_dns_hostnames = "true" #gives you an internal host name
   enable_classiclink   = "false"
   tags = {
-    Name      = "spiderman"
-    owner     = "krishnareddy"
-    operation = "production"
-    costcenter= 8090
+    Name       = "spiderman"
+    owner      = "krishnareddy"
+    operation  = "production"
+    costcenter = 8090
   }
 }
 
