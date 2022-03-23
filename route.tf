@@ -7,7 +7,7 @@ resource "aws_route_table" "public_route" {
     }
 
     tags = {
-        Name = "Public Route"
+        Name = "public -test-Route"
     }
 }
 
